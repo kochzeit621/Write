@@ -54,4 +54,33 @@ margin:0 60px 80px 60px;
 
 .top-wrapper p{
   margin-top: 60px;
+  font-size: 30px;
+
+}
+
+.blog container{
+  margin: 80px;
+}
+
+.blog contents{
+ margin: 80px;
+}
+
+.blog a{
+  display: inline-block;
+  float: left;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 100px;
+}
+
+.blog h1{
+  font-size: 25px;
+  color: black;
+  margin-bottom:30px;
+  float: left;
+  text-align: center;
+}
+
+.blog p{
+  color: rgba(0, 0, 0, 0.5);
 }
