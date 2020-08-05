@@ -58,7 +58,12 @@ margin:0 60px 80px 60px;
 
 }
 
-.blog container{
+.novels{
+  float: right;
+
+}
+
+.blog {
   margin: 80px;
 }
 
@@ -83,4 +88,41 @@ margin:0 60px 80px 60px;
 
 .blog p{
   color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-wrapper{
+  float: left;
+  text-align: center;
+  border: solid 1px #C0C0C0;
+  padding-bottom: 70px;
+}
+
+.about-me{
+  border-top:solid 1px #C0C0C0;
+  float: left;
+  padding: 30px 80px;
+  border-bottom: solid 1px #C0C0C0;
+}
+
+
+.profile{
+  width: 33%;
+}
+
+
+.works{
+  width: 33%;
+}
+
+.categoty{
+  width: 33%;
+}
+
+.category p{
+  border-bottom:solid 1px #C0C0C0;
+}
+
+footer{
+  padding: 30px 80px;
+  text-align: center;
 }
