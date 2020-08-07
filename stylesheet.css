@@ -16,13 +16,13 @@ header{
 max-width: 1000px;
 height: 100px;
 width: 100%;
-padding-top: 80px;
+padding-top: 35px;
 margin: 0 auto;
 color: black;
 }
 
 h1{
-font-size: 43px;
+font-size: 35px;
 font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ font-weight: bold;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 100px;
-
+  width: 70px;
 }
 
 .novels{
