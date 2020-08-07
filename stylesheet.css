@@ -85,6 +85,7 @@ background-color: white;
 .blog content{
  margin: 0 auto;
  padding-bottom:60px;
+ display: flex;
 }
 
 .novels{
@@ -97,7 +98,7 @@ background-color: white;
   float: left;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 100px;
-  
+
 }
 
 .blog h1{
@@ -148,11 +149,13 @@ background-color: white;
   margin: 0 auto;
   padding: 30px 80px;
   border-bottom: solid 1px #C0C0C0;
+  display: flex;
 }
 
 
 .profile{
   width: 33%;
+  
 }
 
 
