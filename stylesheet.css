@@ -41,6 +41,7 @@ font-weight: bold;
   color: black;
 }
 
+/* top-wrapper始まり　本の画像*/
 
 .top-wrapper{
   max-width: 1000px;
@@ -67,7 +68,7 @@ font-weight: bold;
 
 .blog content{
  margin: 0 auto;
- padding-bottom:60px;
+ padding-bottom: 30px;
  display: flex;
  justify-content: space-between;
 }
@@ -78,6 +79,10 @@ font-weight: bold;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 100px;
 
+}
+
+.novels{
+  margin-left: 300px;
 }
 
 .blog h1{
@@ -102,28 +107,31 @@ font-weight: bold;
     font-weight: bold;
     border: solid 1px #C0C0C0;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 10px 10px;
+    padding: 10px 13px;
+    margin-right: 5px;
 }
 
 .two{
    display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 13px;
+    margin-right: 5px;
 }
 
 .three{
    display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 13px;
+    margin-right: 5px;
 }
 
 .next{
     display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 13px;
 }
 
 .about-me{
