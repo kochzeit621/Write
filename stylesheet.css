@@ -14,33 +14,27 @@ a{
 
 header{
 max-width: 1000px;
-height: 90px;
+height: 100px;
 width: 100%;
 padding-top: 80px;
 margin: 0 auto;
 color: black;
-background-color: white;
 }
 
-.container{
+h1{
+font-size: 43px;
+font-weight: bold;
+}
+
+.head-wrapper{
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
-  h1{
-  font-size: 47px;
-  font-weight: bold;
-}
-
-.left-wrapper p{
+.head-wrapper p{
   color: rgba(0, 0, 0, 0.5);
-  margin-top; 10px;
 }
-
-
-  .clear{
-     clear: left;
-   }
 
 .central-wrapper a{
   margin-right: 10px;
