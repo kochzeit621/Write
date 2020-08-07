@@ -145,15 +145,15 @@ background-color: white;
 }
 
 .about-me{
+  border-top:solid 1px #C0C0C0;
   max-width: 1000px;
   margin: 0 auto;
   padding: 30px 80px;
+  border-bottom: solid 1px #C0C0C0;
 }
 
-.about-me container{
-   border-top:solid 1px #C0C0C0;
+.about-me container
    display: flex;
-   border-bottom: solid 1px #C0C0C0;
 }
 
 
