@@ -112,9 +112,10 @@ background-color: white;
 }
 
 .btn-wrapper{
-  float: left;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 70px;
+
 }
 
 .one{
@@ -144,18 +145,21 @@ background-color: white;
 }
 
 .about-me{
-  border-top:solid 1px #C0C0C0;
   max-width: 1000px;
   margin: 0 auto;
   padding: 30px 80px;
-  border-bottom: solid 1px #C0C0C0;
-  display: flex;
+}
+
+.about-me container{
+   border-top:solid 1px #C0C0C0;
+   display: flex;
+   border-bottom: solid 1px #C0C0C0;
 }
 
 
 .profile{
   width: 33%;
-  
+
 }
 
 
@@ -168,6 +172,7 @@ background-color: white;
 }
 
 .category p{
+
   border-bottom:solid 1px #C0C0C0;
 }
 
