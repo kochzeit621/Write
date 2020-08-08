@@ -14,7 +14,7 @@ a{
 
 header{
 max-width: 1000px;
-height: 100px;
+height: 120px;
 width: 100%;
 padding-top: 35px;
 margin: 0 auto;
@@ -27,13 +27,14 @@ font-weight: bold;
 }
 
 .head-wrapper{
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
   padding-top: 10px;
 }
 
 .head-wrapper p{
   color: rgba(0, 0, 0, 0.5);
+
 }
 
 .central-wrapper a{
@@ -77,8 +78,8 @@ font-weight: bold;
 .blog a{
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 100px;
-  width: 150px;
+  margin-bottom: 70px;
+  width:100px;
 }
 
 .novels{
@@ -97,9 +98,8 @@ font-weight: bold;
 
 .btn-wrapper{
   display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 70px;
-
 }
 
 .one{
@@ -108,7 +108,7 @@ font-weight: bold;
     border: solid 1px #C0C0C0;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px 13px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .two{
@@ -116,7 +116,7 @@ font-weight: bold;
     border: solid 1px #C0C0C0;
     text-align: center;
     padding: 10px 13px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .three{
@@ -124,7 +124,7 @@ font-weight: bold;
     border: solid 1px #C0C0C0;
     text-align: center;
     padding: 10px 13px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .next{
@@ -134,35 +134,50 @@ font-weight: bold;
     padding: 10px 13px;
 }
 
-.about-me{
+.aboutme{
   border-top:solid 1px #C0C0C0;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 30px 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: solid 1px #C0C0C0;
 }
 
-.about-me container{
+.aboutme container{
    display: flex;
 }
 
 
 .profile{
   width: 33%;
+  display: inline-block;
+}
 
+.photo img{
+  height: 70px;
+  width: 70px;
+}
+
+.name{
+  display: flex;
 }
 
 
 .works{
+  display: inline-block;
   width: 33%;
 }
 
-.categoty{
+.category{
+  display: inline-block;
   width: 33%;
 }
 
-.category p{
+h4{
+  margin-bottom: 20px;
+}
 
+.works p{
   border-bottom:solid 1px #C0C0C0;
 }
 
@@ -171,5 +186,9 @@ footer{
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 50px;
+  display: flex;
+}
+
+.footer-center{
   text-align: center;
 }
