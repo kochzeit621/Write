@@ -72,6 +72,7 @@ font-weight: bold;
  padding-bottom: 30px;
  display: flex;
  justify-content: space-between;
+ width: 70%;
 }
 
 
@@ -79,7 +80,7 @@ font-weight: bold;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 70px;
-  width:100px;
+  width:120px;
 }
 
 .novels{
@@ -98,7 +99,7 @@ font-weight: bold;
 
 .btn-wrapper{
   display: flex;
-  text-align: center;
+  justify-content: center;
   margin-bottom: 70px;
 }
 
@@ -107,7 +108,7 @@ font-weight: bold;
     font-weight: bold;
     border: solid 1px #C0C0C0;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 10px 13px;
+    padding: 10px 0;
     margin-right: 7px;
 }
 
@@ -115,7 +116,7 @@ font-weight: bold;
    display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 13px;
+    padding: 10px 0;
     margin-right: 7px;
 }
 
@@ -123,7 +124,7 @@ font-weight: bold;
    display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 13px;
+    padding: 10px 0;
     margin-right: 7px;
 }
 
@@ -131,7 +132,7 @@ font-weight: bold;
     display: inline-block;
     border: solid 1px #C0C0C0;
     text-align: center;
-    padding: 10px 13px;
+    padding: 10px 0;
 }
 
 .aboutme{
@@ -153,7 +154,7 @@ font-weight: bold;
   display: inline-block;
 }
 
-.photo img{
+img .photo{
   height: 70px;
   width: 70px;
 }
@@ -187,8 +188,5 @@ footer{
   padding-top: 40px;
   padding-bottom: 50px;
   display: flex;
-}
-
-.footer-center{
-  text-align: center;
+    justify-content: space-around;
 }
