@@ -150,7 +150,7 @@ font-weight: bold;
 
 
 .profile{
-  width: 33%;
+  width: 30%;
   display: inline-block;
 }
 
@@ -166,12 +166,12 @@ img .photo{
 
 .works{
   display: inline-block;
-  width: 33%;
+  width: 30%;
 }
 
 .category{
   display: inline-block;
-  width: 33%;
+  width: 30%;
 }
 
 h4{
